@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body { margin: 0; background: url('رابط_صورتك_هنا') no-repeat center center fixed; background-size: cover; text-align: center; color: white; font-family: sans-serif; }
+        .container { padding: 50px; background: rgba(0,0,0,0.5); min-height: 100vh; }
+        .btn { display: block; margin: 10px auto; padding: 15px; width: 80%; background: purple; border-radius: 20px; color: white; text-decoration: none; }
+        #bats { position: fixed; top: 0; left: 0; pointer-events: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>مرحباً بك في موقعي</h1>
+        <a href="https://discord.gg/9ggXtrYG" class="btn">Discord</a>
+        <a href="رابط_انستغرامك" class="btn">Instagram</a>
+        
+        <h2>الموسيقى</h2>
+        <iframe src="https://open.spotify.com/embed/track/2JzZzLmU79eZ3l0sB5pS1F" width="300" height="80"></iframe>
+    </div>
+    <script>
+        // تأثير بسيط للخفافيش (يمكن تطويره لاحقاً)
+        console.log("الخفافيش جاهزة للطيران!");
+    </script>
+</body>
+</html>
